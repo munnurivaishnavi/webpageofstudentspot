@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Spot</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+    }
+    .navbar {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .nav-link {
+      color: #ffc107 !important;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover {
+      color: #fff !important;
+    }
+    .jumbotron {
+      background: linear-gradient(to right, #ffafbd, #ffc3a0);
+      color: white;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #ffc107;
+      text-shadow: 2px 2px 8px #000;
+    }
+    .highlight img {
+      width: 70px;  /* Increased size */
+      height: 70px; /* Increased size */
+      margin-right: 10px;
+    }
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card-title {
+      font-weight: bold;
+    }
+    .btn-custom {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+    }
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    .form-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+    .form-box {
+      width: 45%;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .form-box h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+    .form-box .form-group {
+      margin-bottom: 15px;
+    }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-colorl: #e0eafc;
+            margin: 0;
+            padding: 0;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #e0eafc;
+        }
+        .footer-column {
+            flex: 1;
+            margin: 0 10px;
+        }
+        .footer-column h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-column ul li {
+            margin-bottom: 5px;
+        }
+        .subscribe {
+            display: flex;
+            flex-direction: column;
+        }
+        .subscribe input[type="email"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .subscribe button {
+            padding: 10px;
+            border: none;
+            background-color: #e0eafc;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer-bottom {
+            text-align: center;
+            padding: 10px;
+            background-color: #e0eafc;
+            border-top: 1px solid #ccc;
+        }
+        .footer-bottom a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 5px;
+        }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Student Spot</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Groups</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Campus Ambassador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Teams</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="jumbotron mt-4">
+      <h1 class="highlight"><img src="studentspotlogo in html folder.jpg" alt="Logo">Welcome to Student Spot!</h1>
+      <p>Your one-stop platform for all things student-related.</p>
+    </div>
+    <marquee>
+      <img src="pic1.jpg" height="200" width="200">
+      <img src="pic2.jpg" height="200" width="200">
+      <img src="pic3.jpg" height="200" width="200">
+      <img src="pic4.jpg" height="200" width="200">
+      <img src="pic5.jpg" height="200" width="200">
+      <img src="pic6.jpg" height="200" width="200">
+      <img src="pic7.jpg" height="200" width="200">
+    </marquee>
+    <div class="content">
+      <h2>About Us</h2>
+      <p><strong>Student Spot</strong> is a dynamic community crafted to connect students with industry professionals. Our goal is to empower young minds through an array of resources, networking prospects, and essential career insights. We strive to foster a nurturing environment where members can gain knowledge, share experiences, and flourish collectively. Whether it's job listings or mentorship opportunities, we have something for everyone.</p>
+      <h2>Our Mission</h2>
+      <p>At Student Spot, we aim to empower students by providing them with the resources and opportunities they need to succeed. Our platform is designed to help you stay informed, connected, and engaged with the student community.</p>
+      <h2>Features</h2>
+
+     
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Announcements</h4>
+              <p class="card-text">Stay updated with the latest news and important information.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Hackathons</h4>
+              <p class="card-text">Discover and participate in exciting hackathons to showcase your skills.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Webinars & Workshops</h4>
+              <p class="card-text">Join our webinars and workshops to learn from industry experts.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Networking</h4>
+              <p class="card-text">Connect with fellow students and professionals to build your network.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Internships</h4>
+              <p class="card-text">Explore internship opportunities to gain valuable experience.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Jobs</h4>
+              <p class="card-text">Find job listings to start your professional career journey.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Why Choose Student Spot?</h2>
+      <p><strong>Comprehensive Resources:</strong> Access a wide range of resources tailored to your needs.</p>
+      <p><strong>Community Engagement:</strong> Be a part of a vibrant and supportive student community.</p>
+      <p><strong>Opportunities for Growth:</strong> Find opportunities to enhance your skills and advance your career.</p>
+    </div>
+
+    <!-- Login and Signup Form -->
+    <div class="form-container">
+      <div class="form-box">
+        <h2>Signup</h2>
+        <form>
+          <div class="form-group">
+            <label for="signupName">Name</label>
+            <input type="text" class="form-control" id="signupName" placeholder="Enter name">
+          </div>
+          <div class="form-group">
+            <label for="signupEmail">Email address</label>
+            <input type="email" class="form-control" id="signupEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="signupPassword">Password</label>
+            <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-custom btn-block">Signup</button>
+        </form>
+    </div>
+      
+      <div class="form-box">
+        <h2>Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="loginEmail">Email address</label>
+            <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
+             </div>
+             <div class="form-group">
+                <label for="signupPassword">Password</label>
+                <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+                <button type="submit" class="btn btn-custom btn-block">Login</button>
+              </div>
+              </form>
+              </div>
+              </div>
+            </div>
+            
+              <footer class="footer">
+                <div class="footer-column">
+                    <h3><b>Stay Connected</b></h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Support</li>
+                        <li>Blog Posts</li>
+                        <li>FAQs</li>
+                        <li>Community Guidelines</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3><b>Resources</b></h3>
+                    <ul>
+                        <li>Career Tips</li>
+                        <li>Internship Advice</li>
+                        <li>Scholarship Info</li>
+                        <li>Success Stories</li>
+                        <li>Student Events</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3><b>Connect With Us</b></h3>
+                    <ul>
+                        <li>Social Media</li>
+                        <li>Email Updates</li>
+                        <li>Feedback Form</li>
+                        <li>Join Us</li>
+                        <li>Stay Informed</li>
+                    </ul>
+                </div>
+                <div class="footer-column subscribe">
+                    <h3><b>Subscribe</b></h3>
+                    <p>Join our newsletter for the latest updates on features and opportunities.</p>
+                    <input type="email" placeholder="Your Email Here">
+                    <button>Send</button>
+                    <p>By subscribing, you agree to our Privacy Policy and consent to receive updates.</p>
+                </div>
+            </footer>
+            <div class="footer-bottom">
+                <p>© 2024 The Student Spot. All rights reserved.</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Cookie Settings</a>
+                <div class="social-icons">
+                    <img src="facebook.png" height="50" width="50" alt="Facebook"></a>
+                    <a href="#"><img src="icon-instagram.jpg" alt="Instagram"></a>
+                    <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </body>
+        </html>
+        
+    
+              
